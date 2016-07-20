@@ -1,3 +1,3 @@
 # ProgressBar_Varied
 
-![](https://github.com/Qiang3570/DragLayoutExpand/blob/master/sample.gif)
+![](https://github.com/836948082/ProgressBar_Varied/blob/master/image/image.png)
