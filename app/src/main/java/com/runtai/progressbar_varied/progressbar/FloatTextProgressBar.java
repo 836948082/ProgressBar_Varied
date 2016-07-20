@@ -93,7 +93,7 @@ public class FloatTextProgressBar extends ProgressBar {
      */
     private void drawFloatRect(Canvas canvas){
 
-        /*floatRectWidth / 2,让floatRectWidth宽度一半(中间)进行计算，更加具有真实性*/
+        /**floatRectWidth / 2,让floatRectWidth宽度一半(中间)进行计算，更加具有真实性*/
 
         if (progressWidth < floatRectWidth / 2 + margin){
             //绘制浮动框
