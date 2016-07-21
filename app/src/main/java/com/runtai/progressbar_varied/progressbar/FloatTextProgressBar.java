@@ -145,9 +145,9 @@ public class FloatTextProgressBar extends ProgressBar {
         paint.setColor(textColor);
         paint.setTextSize(textSize);
         float textWidth = paint.measureText(progress + "%");
-        if (progressWidth < floatRectWidth + margin) {
+        if (progressWidth < floatRectWidth / 2 + margin) {
             canvas.drawText(progress + "%", margin + floatRectWidth / 2 - textWidth / 2, floatRectHeight / 2 + textSize / 4, paint);
-        } else if (width - progressWidth < floatRectWidth + margin){
+        } else if (width - progressWidth < floatRectWidth / 2 + margin){
             canvas.drawText(progress + "%", width - margin - floatRectWidth / 2 - textWidth / 2, floatRectHeight / 2 + textSize / 4, paint);
         } else {
             canvas.drawText(progress + "%", progressWidth - textWidth / 2, floatRectHeight / 2 + textSize / 4, paint);
